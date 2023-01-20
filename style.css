@@ -7,14 +7,14 @@
 }
 body
 {
-	background-image: url(bg1.jpg);
+	background-image: url(bg.jpg);
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
 }
 .menu-bar
 {
-	background:rgb(1, 102, 1);
+	background:rgb(4, 115, 219);
 	text-align: center;
 }
 .menu-bar ul 
@@ -38,7 +38,7 @@ body
 }
 .active, .menu-bar ul li:hover
 {
-	background: #018d0d;
+	background: #2489fd;
 	border-radius: 3px;	
 }
 .menu-bar .fa 
@@ -54,7 +54,7 @@ body
 {
 	display: block;
 	position: absolute;
-	background: rgb(0, 148, 0);
+	background: #2489fd;
 	margin-top: 15px;
 	margin-left: -15px;
 }
@@ -94,5 +94,5 @@ body
 	display: block;
 	margin-top:-40px;
 	margin-left: 140px;
-	background: rgb(0, 148, 0);
+	background: #2489fd;
 }
