@@ -10,7 +10,7 @@ return false;
 }
 else{
 attempt --;// Decrementing by one.
-alert("You have left "+attempt+" attempt;");
+alert("Password and Confirm Password does not matched. Try again later. ");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
 document.getElementById("username").disabled = true;
