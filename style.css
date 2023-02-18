@@ -8,20 +8,112 @@
 }
 body
 {
-	background-image: url(pg.jpg);
+	background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
 	background-size: cover;
 	font-family: sans-serif;
 }
+
+
+
+/*Coloum start*/
+#centerColumn { 	
+	margin:0 auto;
+	padding:1em;
+	width:720px;
+	text-align:center;
+	vertical-align: middle;	
+	background-image: url(pg.jpg);
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+	
+	#centerColumn h2 {
+	margin:0 0 -.5em 0;
+	padding:.75em 0 0 0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.1em;
+	}
+	
+	#centerColumn h3 {
+	margin:0 0 -.5em 0;
+	padding:.75em 0 0 0;
+	font-size:.8em;
+	font-weight:lighter;
+	letter-spacing:.1em;
+	}
+	
+	#navbar {
+	margin:-1em -1em 0 -1em; /* Mozzila attributes */
+	padding:1em 0 1em 0 !important; /* IE specific attributes */
+	padding:1em 0 0 0;
+	background-color:#db990a;
+	}
+	
+	#navbar ul {
+	margin:0 0 -1em .3em !important;
+	margin:.3em 0 0 .3em;
+	padding:0 0 1em 0;
+	list-style:none;
+	background-color:#db990a;
+	}
+	
+	#navbar li {
+	margin:0 0 0 -.27em;
+	padding:.2em 0 .2em 0 !important;
+	padding:1em 0 1em 0;
+	list-style:none;
+	display:inline;
+	background-color:#db990a;
+	}
+	
+	#navbar li a {
+	margin:0 0 0 0;
+	padding:1em .5em 1em .5em !important;
+	padding:1em .5em 0 .5em;
+	}
+/*Coloum end*/
+.container{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+	
+	
+
+	
+}
+
+
+
+
+
+
+
+
+#cell_1 {
+	margin-left: 300px;
+	margin-top: 100px;
+	padding:8px;
+	float:left;
+	width:100px;
+	position: absolute;
+
+	}
+	
+	
+
 .menu-bar
 {
-	background-color:none;
-	text-align: center;
+	background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+	text-align: left;
+	width: 200px;
+	height: 110vh;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
 	
 	
 }
 .menu-bar ul 
 {
-	display: inline-flex;
+	display: inline-block;
 	list-style: none;
 	color: rgb(255, 255, 255);
 }
@@ -30,7 +122,7 @@ body
 	width: 175px;
 	margin: 14px;
 	padding: 15px;
-	background-color: #ec3a04;
+	background-image: linear-gradient( 73.1deg,  rgba(34,126,34,1) 8%, rgba(99,162,17,1) 86.9% );
 	
 
 }
@@ -42,7 +134,7 @@ body
 }
 .active, .menu-bar ul li:hover
 {
-	background: #2489fd;
+	background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
 	border-radius: 7px;	
 }
 .menu-bar, .fa
@@ -58,7 +150,7 @@ body
 {
 	display: block;
 	position: absolute;
-	background: #2489fd;
+	background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% );
 	margin-top: 9px;
 	margin-left: -15px;
 	border-radius: 5px;
@@ -105,6 +197,109 @@ body
 	display: block;
 	margin-top:-42px;
 	margin-left: 215px;
-	background: #2489fd;
+	background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% );
 	border-radius: 5px;
 }
+#footer {
+	position:relative;
+	clear:both;
+	bottom:0;
+	margin:5em 0 0 0;
+	padding:0;
+	height:4em;
+	line-height:4em;
+	text-align:center;
+	font-size:.7em;
+	background-color:#ffffff;
+	}
+
+
+
+	/*animation*/
+	.wrapper.one {
+		background-color: #1a1a1a;
+	}
+	.drop-main {
+		display: flex;
+		font-size: 7rem;
+		margin: 1.5rem;
+		justify-content: center;
+		font-family: "Russo One", sans-serif;
+	}
+	.d {
+		opacity: 0;
+		animation: drop 0.4s linear forwards;
+		color: #00ffff;
+	}
+	.a {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.3s;
+		color: #99ffff;
+	}
+	.t {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.4s;
+		color: #ccffff;
+	}
+	.a {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.6s;
+		color: #fa41d2;
+	}
+	.b {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.8s;
+		color: #07b91f;
+		
+	}
+	.s {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.9s;
+		color: #b9eb07;
+	}
+	.e {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.6s;
+		color: #03dbdb;
+	}
+	.y {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.5s;
+		color: #de4040;
+	}
+	.m {
+		opacity: 0;
+		animation: drop 0.4s linear forwards 0.3s;
+		color: #f1420d;
+	}
+	@keyframes drop {
+		0% {
+			transform: translateY(-200px);
+			opacity: 0;
+		}
+		25% {
+			transform: translateY(0px);
+			opacity: 1;
+		}
+		40% {
+			transform: translateY(-17px);
+			opacity: 1;
+		}
+		65% {
+			transform: translateY(-13px);
+			opacity: 1;
+		}
+		75% {
+			transform: translateY(-22px);
+			opacity: 1;
+		}
+		80% {
+			transform: translateY(-50px);
+			opacity: 1;
+		}
+		100% {
+			transform: translateY(-10px);
+			opacity: 1;
+		}
+	}
+	/*animation*/
